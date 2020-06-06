@@ -1,0 +1,206 @@
+/* HOME PAGE AND GENERAL  */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  align-items: center;
+  cursor: pointer;
+}
+
+html {
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  width: 100%;
+}
+
+.search-box {
+   width: 150px;
+}
+
+.sectionHeading {
+  padding: 20px 20px 10px;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+}
+
+.btn-primary {
+  background-color: rgb(204, 204, 19);
+  border: none;
+
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+.banner {
+  padding: 100px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+  background-color: beige;
+}
+
+.banner h3 {
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.slider {
+  width: 100%;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.banner h4 {
+  
+  font-size: 18px;
+  text-align: justify;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  line-height: 1.5rem;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: rgb(145, 139, 139);
+}
+
+footer .footer-logo {
+  background-color: white;
+  margin: auto;
+  width: 250px;
+}
+
+
+footer .footer-logo img {
+  width: 150px;
+}
+
+footer .footer-logo img {
+
+  margin: auto;
+  width: 250px;
+}
+
+footer .footer-logo h3 {
+  display: none;
+}
+
+footer .footer-list {
+  width: 100%;
+  text-align: center;
+  border-top: 1px dotted grey;
+  padding: 20px;
+  line-height: 2rem;
+}
+
+footer .footer-list li{
+   list-style-type: none;
+   
+}
+
+footer .search-box {
+  width: 250px;
+  margin: auto;
+}
+
+ .copywrite {
+  padding: 20px;
+  text-align: center;
+}
+
+/* ANIMATION */
+
+
+/* MEDIA QUERY FOR TABLET AND DESKTOP VIEW */
+@media (min-width: 786px) {
+
+  .navbar-nav li {
+    padding: 0px 15px ;
+  }
+
+  .carousel-inner > .item {
+    height: 600px;
+ }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  footer .copywrite {
+    padding: 20px;
+    text-align: center;
+  }
+
+  footer .footer-list {
+    border-top: none;
+    width: 18rem;
+  }
+
+footer .footer-logo {
+  background-color: white;
+  margin: auto;
+  width: 18rem;
+}
+
+footer .footer-logo img {
+  width: 100px;
+  margin: auto;
+}
+ 
+footer .footer-logo h3 {
+  display: flex;
+  font-size: 16px;
+  text-align: center;
+}
+
+footer .search-box {
+  width: 150px;
+  margin: auto;
+}
+}
+
+/* MUSIC page */
+
+/* Jumbotron */
+.music-page .jumbotron {
+  background-color: aquamarine;
+  /* background-image: url("../images/cover-art3.jpeg"); */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.music-page .jumbotron .container {
+  margin-top: 100px;
+
+}
+
+.music-page .jumbotron .display-4{
+
+  color: #ffffff;
+}
+
+.music-page .jumbotron .lead {
+  color: #ffffff;
+}
+
+/* Trending section */
+.media img {
+  width: 80px;
+}
+
+.
