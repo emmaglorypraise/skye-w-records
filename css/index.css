@@ -75,7 +75,7 @@ nav {
 /* FOOTER */
 
 footer {
-  background-color: rgb(145, 139, 139);
+  background-color: rgb(255, 251, 251);
 }
 
 footer .footer-logo {
@@ -172,7 +172,68 @@ footer .search-box {
   width: 150px;
   margin: auto;
 }
+
+.page-header {
+  text-align: center;
+  width: 500px;
+  margin: auto;
 }
+
+.form-body {
+  width: 500px;
+  margin: auto;
+}
+
+.upload-button button {
+  width: 500px;
+}
+
+.hidden {
+  padding: 20px;
+}
+
+.content-container {
+ margin-top: 0;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+}
+
+.messageForm .meassageHeader {
+font-size: 32px;
+
+}
+
+.messageForm .meassageHeader1 {
+margin-bottom: 10px;
+width: 70%;
+margin: 0px auto;
+}
+
+.messageForm button {
+   padding: 20px;
+   width: 200px;
+   text-align: center;
+   margin: 0px auto;
+}
+
+/* Record page */
+.record-page .sub-container2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  
+}
+
+.services-card {
+  text-align: center;
+  padding: 50px;
+
+}
+
+
+}
+
 
 /* MUSIC page */
 
@@ -186,21 +247,216 @@ footer .search-box {
 
 .music-page .jumbotron .container {
   margin-top: 100px;
-
 }
 
 .music-page .jumbotron .display-4{
-
   color: #ffffff;
 }
 
 .music-page .jumbotron .lead {
   color: #ffffff;
 }
-
 /* Trending section */
 .media img {
   width: 80px;
 }
 
-.
+.media-page .trending {
+  padding: 0;
+  margin: 0;
+}
+
+/* Upload page */
+
+/* form */
+.form-body {
+  padding: 10px;
+  /* color: #ffffff; */
+  /* color: black; */
+  /* background-color: rgb(66, 183, 187); */
+  /* opacity: 0.5; */
+}
+
+ .page-header {
+  text-align: center;
+  font-size: 14px;
+  color: #333333;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  padding: 0px;
+  margin: 0px;
+}
+
+.upload-heading {
+  color: #333333;
+  font-size: 18px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+}
+
+.upload-button {
+  padding: 30px auto;
+  text-align: center;
+}
+
+.upload-button button {
+  margin: auto;
+  padding: 10px 100px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(196, 196, 13);
+  background-color: #333333;
+  color: white;
+}
+
+.upload-button button:hover {
+  background-color: rgb(196, 196, 13);
+}
+
+/* Contact page */
+
+.content-container {
+  margin-top: 20px;
+}
+
+.content-box {
+  text-align: center;
+  padding: 50px;
+
+}
+
+.content-caption {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+.messageForm {
+    width: 100%;
+    padding: 10px;
+}
+
+.messageForm form{
+    width: 70%;
+    margin: 0px auto;
+    margin-top: 20px;
+} 
+
+.meassageHeader {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 21px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgba(128, 61, 0, 0.87);
+}
+
+.meassageHeader1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.messageForm label {
+    font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.messageForm button {
+    padding: 20px;
+    border: none;
+    background-color: rgba(128, 61, 0, 0.87);
+}
+
+
+.messageForm button:hover {
+    background-color: #fff;
+    color: rgba(128, 61, 0, 0.87);
+    border: 1px solid rgba(128, 61, 0, 0.87);
+}
+
+/* Record page */
+
+.record-page .services {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.record-page .services .service-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.record-page .card {
+  padding: 50px;
+  margin: 10px auto;
+  background-color: grey;
+  color: white;
+  /* background-image: url("../images/cover-art1.jpeg");
+  background-size: contain;
+  background-repeat: none; */
+ 
+}
+
+.record-page .services-card .services-card-title {
+
+  text-align: center;
+}
+
+.record-page .card {
+  background-color: teal;
+  padding: 50px;
+  margin: 10px auto;
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+
+
+.deal-card .card-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 21px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.deal-card .card-text {
+  text-align: left;
+  width: 200px;
+}
+
+.deal-card .icon {
+  font-size: 20px;
+}
+
+.deal-card img {
+  width: 35px;
+  /* height: 20px; */
+}
+
