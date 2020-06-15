@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skyewrecords</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/index.css">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600&display=swap" rel="stylesheet"></head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+  <body>
+  <!-- navigation bar -->
+    <nav class="navbar fixed-top navbar-expand-sm navbar-light bg-white">
+    
+      <a class="navbar-brand" href="#">
+        <img src="images/logo.jpeg"  width="100" height="50 alt="logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+    
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <form class="form-inline ml-auto my-2 my-lg-0">
+  
+         <div class="input-group searchbox">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="basic-addon1"><i class="fa fa-search" aria-hidden="true"></i></span>
+          </div>
+          <input type="text" class="form-control mr-sm-2 " placeholder="Search" aria-label="search" aria-describedby="basic-addon1">
+        </div>
+        </form>
+        
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+          <li class="nav-item ">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="music.html">Music</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="upload.html">Upload</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="record.html">Records</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+       
+      </div>
+    </nav>
+<br>
+<br>
+<br>
+
+
+    <!-- Form for music upload -->
+
+    <div class="page-header">
+      <h2>UPLOAD YOUR SONG HERE</h2>
+    </div>
+
+    <div class="form-body">
+
+    <!-- artist details -->
+    <h3 class="upload-heading">Artist Details</h3>
+    <form class="upload-form">
+      <div class="form-group">
+        <label for="formGroupExampleInput">Rights Owner Full Name</label>
+        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter Full name">
+      </div>
+      <div class="form-group">
+        <label for="formGroupExampleInput">Artist Name</label>
+        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter Artist name">
+      </div>
+      <div class="form-group">
+        <label for="formGroupExampleInput2">Artist Email</label>
+        <input type="email" class="form-control" id="formGroupExampleInput2" placeholder="Enter Artist Email">
+      </div>
+      <div class="form-group">
+        <label for="formGroupExampleInput">Country</label>
+        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter Country">
+      </div>
+    </form>
+    <br>
+
+     <!-- Album  details -->
+     <h3 class="upload-heading">Album Details</h3>
+     <form class="upload-form">
+       <div class="form-group">
+         <label for="formGroupExampleInput">Producer Name</label>
+         <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter name of Producer">
+       </div>
+       <div class="form-group">
+         <label for="formGroupExampleInput2">Record Label Name</label>
+         <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Enter name of Record Label">
+       </div>
+     </form>
+    <br>
+
+    <!-- track details -->
+    <h3 class="upload-heading">Track Details</h3>
+    <form class="upload-form">
+      <div class="form-group">
+        <label for="formGroupExampleInput2">Track Title</label>
+        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Enter Track name">
+      </div>
+      <div class="form-group">
+        <label for="formGroupExampleInput2">Featuring</label>
+        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Enter Featured Artist(s)">
+      </div>
+      <div class="form-group">
+        <label for="formGroupExampleInput2">Song Writer 1</label>
+        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Enter Song writer 1">
+      </div>
+      <div class="form-group">
+        <label for="formGroupExampleInput2">Song Writer 2</label>
+        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Enter Song writer 2">
+      </div>
+      <div class="form-group">
+        <label for="formGroupExampleInput2">Other Writers</label>
+        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Enter other writers">
+      </div>
+      <div class="form-group">
+        <label for="formGroupExampleInput2">Release Date</label>
+        <input type="date" class="form-control" id="formGroupExampleInput2" placeholder="mm/dd/yyyy">
+      </div>
+      <div class="form-group">
+        <label for="formGroupExampleInput2">Select Genre</label>
+        <select class="form-control" id="formGroupExampleInput2" placeholder="Select Genre">
+          <option>Gospel</option>
+          <option>Afro Pop</option>
+          <option>Dance</option>
+          <option>Afrobeats</option>
+          <option>Worship</option>
+          <option>Praise</option>
+          <option>Hip Hop</option>
+          <option>Others</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="formGroupExampleInput">Track Description</label>
+        <textarea class="form-control" rows="5" id="formGroupExampleInput" placeholder="Write or paste a few words about this song here (maximum length of 600 characters only)"></textarea>
+      </div>
+     <br>
+      
+    </form>
+
+      <!-- Upload List -->
+      <h3 class="upload-heading">Please Upload the following</h3>
+      <form class="upload-form">
+        <div class="form-group">
+          <label for="formGroupExampleInput2">Select MP3 Music File</label>
+          <div class="custom-file mb-3">
+            <input type="file" class="custom-file-input" id="validatedCustomFile" required>
+            <label class="custom-file-label" for="validatedCustomFile">it must not exceed the 4MB maximum file size</label>
+            <div class="invalid-feedback">Example invalid custom file feedback</div>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="formGroupExampleInput2">Select Artwork</label>
+          <div class="custom-file mb-3">
+            <input type="file" class="custom-file-input" id="validatedCustomFile" required>
+            <label class="custom-file-label" for="validatedCustomFile">Recommended size(3000x3000px JPG)</label>
+            <div class="invalid-feedback">Example invalid custom file feedback</div>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="formGroupExampleInput2">Select Music Video (Optional)</label>
+          <div class="custom-file mb-3">
+            <input type="file" class="custom-file-input" id="validatedCustomFile" required>
+            <label class="custom-file-label" for="validatedCustomFile">It must not exceed the 20MB maximum file size</label>
+            <div class="invalid-feedback">Example invalid custom file feedback</div>
+          </div>
+        </div>
+      </form>
+      <br>
+
+       <!-- Terms and conditions -->
+     <h3 class="upload-heading">Terms & Conditions</h3>
+     <form class="upload-form">
+       <div class="form-group">
+        <div class="checkbox">
+          <label><input type="checkbox" value=""> I agree to the Terms & Conditions</label>
+        </div>
+        <div class="checkbox">
+          <label><input type="checkbox" value="">Upload to our YouTube Channel & Playlists</label>
+        </div>
+        <div class="checkbox disabled">
+          <label><input type="checkbox" value="" disabled>Upload to our Spotify Playlists</label>
+        </div>
+        <div class="upload-button">
+          <button type="button" class="btn btn-success">Upload</button>
+        </div>
+       </div>
+     </form>
+
+
+    </div>
+
+      
+      
+
+<!-- Footer -->
+   <footer>
+    <div class="row">
+    <div class="footer-logo col-sm-3">
+      <img src="images/logo.jpeg" alt="logo">
+      <h3>Skye-w records</h3>
+    </div>
+     <div class="footer-list col-sm-3">
+       <ul>
+         <li>About</li>
+         <li>FAQ</li>
+         <li>Contact</li>
+         <li>Something</li>
+       </ul>
+     </div>
+     <div class="footer-list col-sm-3">
+      <ul>
+        <li>Latest music</li>
+        <li>Latest video</li>
+        <li>Latest artist</li>
+        <li>Latest lyrics</li>
+      </ul>
+    </div>
+    <div class="footer-list col-sm-3">
+      <ul>
+        <li>Something</li>
+        <li>Favourite Playlist</li>
+        <li>Album Release</li>
+        <li>Latest artist</li>
+      </ul>
+    </div>
+  </div>
+  <br>
+    
+ 
+  </div>
+  </footer>
+  <div class="copywrite">
+    © 2020 Skyewrecords - All Rights Reserved - 
+    <a href="#">
+      Terms
+    </a>
+  </div>
+
+    
+  
+  <script src="https://use.fontawesome.com/ad17ba1b43.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>   
+</body>
+</html>
