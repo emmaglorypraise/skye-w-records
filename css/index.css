@@ -231,6 +231,17 @@ margin: 0px auto;
 
 }
 
+.services-container {
+  display: flex;
+  display: row;
+  justify-content: space-between;
+}
+/* faq page? */
+.faq-page {
+  padding: 10px;
+  width: 40%;
+  margin: 100px auto;
+}
 
 }
 
@@ -460,3 +471,10 @@ margin: 0px auto;
   /* height: 20px; */
 }
 
+/* FAQ PAGE */
+
+.faq-page {
+  padding: 10px;
+  width: 60%;
+  margin: 100px auto;
+}
